@@ -91,7 +91,7 @@ export default function ServiceSection() {
           </Grid>
         </Box>
       </Container>
-      {window && (
+      {window && window !== undefined && (
         <ModalVideo
           channel='youtube'
           isOpen={videoOpen}
